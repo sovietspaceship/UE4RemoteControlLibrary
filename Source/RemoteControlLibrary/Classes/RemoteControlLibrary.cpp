@@ -38,5 +38,5 @@ bool URemoteControlLibrary::StartPIE() {
 FString URemoteControlLibrary::GetCurrentLevel() {
     UWorld* EditorWorld = GetEditorWorld();
 
-    return EditorWorld->GetSelectedLevel(0)->GetName();
+    return EditorWorld->GetCurrentLevel()->GetName();
 }
