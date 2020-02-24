@@ -1,6 +1,6 @@
 # Unreal Engine Web Remote Control Library
 
-This plugin implements some functions useful to interact wuith the Unreal Editor via
+This plugin implements some functions useful to interact with the Unreal Editor via
 Web Remote Control.
 
 It provides the `URemoteControlLibrary` Blueprint function library. All methods
