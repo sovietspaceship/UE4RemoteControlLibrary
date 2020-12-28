@@ -1,7 +1,8 @@
 # Unreal Engine Web Remote Control Library
 
 This plugin implements some functions useful to interact with the Unreal Editor via
-Web Remote Control.
+Web Remote Control. It also serves as a starter for writing your own blueprint function
+library for remote control.
 
 It provides the `URemoteControlLibrary` Blueprint function library. All methods
 are callable via Web Remote Control. Clients that wish to interact with this object
@@ -27,5 +28,6 @@ methods must be `BlueprintCallable` and `public`.
 
 ## Contributing
 
-I created this library for my own projects, so it may not have methods useful to everybody. If you
-want some methods that are missing to be included I'd be happy to consider any merge request!
+I created this library as a base for my own projects, so it may not be very useful by itself without
+adding more methods.
+If you want some commonly useful methods to be included I'd be happy to consider any merge request!
